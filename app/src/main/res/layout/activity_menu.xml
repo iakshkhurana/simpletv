@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/accent"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/menu_hint"
+        android:textColor="#888888"
+        android:textSize="14sp" />
+
+    <Button android:id="@+id/btnLive" style="@style/MenuButton" android:text="@string/live_tv" />
+    <Button android:id="@+id/btnMovies" style="@style/MenuButton" android:text="@string/movies" />
+    <Button android:id="@+id/btnSeries" style="@style/MenuButton" android:text="@string/series" />
+    <Button android:id="@+id/btnSettings" style="@style/MenuButton" android:text="@string/settings" />
+    <Button android:id="@+id/btnExit" style="@style/MenuButton" android:text="@string/exit_app" />
+</LinearLayout>

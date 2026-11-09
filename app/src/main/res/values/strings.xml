@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimpleTV</string>
+
+    <!-- Login -->
+    <string name="login_subtitle">Enter your IPTV (Xtream Codes) login – same details as XCIPTV / Smarters</string>
+    <string name="server_url">Server URL</string>
+    <string name="server_hint">http://example.com:8080</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Connect &amp; Save</string>
+    <string name="fill_all_fields">Please fill server, username and password.</string>
+    <string name="connecting">Connecting…</string>
+    <string name="login_failed">Login failed: %1$s</string>
+
+    <!-- Live TV -->
+    <string name="loading_channels">Loading channels…</string>
+    <string name="no_channels">No channels found in this subscription.</string>
+    <string name="load_error">Could not load: %1$s\n\nPress BACK → Settings → Refresh lists, or check your internet.</string>
+    <string name="stream_error">Stream not available (%1$s). Try another channel.</string>
+    <string name="all_channels">All Channels</string>
+    <string name="panel_hint">◀ ▶ category     OK play     BACK close     0-9 channel number</string>
+    <string name="epg_now">Now: %1$s  (%2$s – %3$s)</string>
+    <string name="epg_next">Next: %1$s  (%2$s)</string>
+    <string name="no_such_channel">No channel %1$d</string>
+
+    <!-- Menu -->
+    <string name="menu_hint">Press BACK to return to Live TV</string>
+    <string name="live_tv">Live TV</string>
+    <string name="movies">Movies</string>
+    <string name="series">Series</string>
+    <string name="settings">Settings</string>
+    <string name="exit_app">Exit App</string>
+
+    <!-- Browse -->
+    <string name="all">All</string>
+    <string name="loading">Loading…</string>
+    <string name="nothing_found">Nothing found.</string>
+
+    <!-- Settings -->
+    <string name="auto_start">Open Live TV automatically when the TV turns on</string>
+    <string name="use_hls">Use HLS (.m3u8) live streams instead of .ts</string>
+    <string name="refresh_lists">Refresh channel / movie / series lists</string>
+    <string name="show_account">Show account info</string>
+    <string name="account_info">User: %1$s\nStatus: %2$s\nExpires: %3$s\nConnections: %4$s of %5$s in use\nServer: %6$s</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="lists_refreshed">Lists will be downloaded again.</string>
+    <string name="logout">Change login / Logout</string>
+</resources>
